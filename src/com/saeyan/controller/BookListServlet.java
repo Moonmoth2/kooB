@@ -24,7 +24,7 @@ public class BookListServlet extends HttpServlet {
 		List<BookVO> bookList = bDao.selectBooks(category);
 		
 		request.setAttribute("bookList", bookList);
-		RequestDispatcher dispatcher = request.getRequestDispatcher("book/bookList2.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("book/bookList.jsp");
 		dispatcher.forward(request, response);
 	}
 }
