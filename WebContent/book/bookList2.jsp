@@ -15,8 +15,9 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 </head>
 <style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
-	height : 100%;
+	font-family: 'Noto Sans kr';
 }
 body:not(.ui.container){
 	background-color : #94b6d2;

@@ -13,7 +13,11 @@
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-<style type="text/css">
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+	font-family: 'Noto Sans kr';
+}
 body > .grid {
 	height: 100%;
 }
@@ -28,33 +32,6 @@ body > .grid {
 	background-color : #94B6D2;
 }
 </style>
-  
-<script>
-$(document).ready(function() {
-	$('.ui.form').form({
-		fields: {
-			id: {
-				ientifier : 'userid',
-				rules: [
-					{
-						type: 'empty',
-						prompt : '아이디를 입력해주세요!'
-					}
-				]
-			},
-			password: {
-				identifier: 'pwd',
-				rules: [
-					{
-						type: 'empty',
-						prompt: '비밀번호를 입력해주세요!'
-					}
-				]
-			}
-		}
-	});
-});
-</script> 
 </head>
 <body>
 
@@ -115,5 +92,33 @@ $(document).ready(function() {
 		</div>
 	</div>
 </div>
+
+<script>
+$(document).ready(function() {
+	$('.ui.form').form({
+		fields: {
+			id: {
+				ientifier : 'userid',
+				rules: [
+					{
+						type: 'empty',
+						prompt : '아이디를 입력해주세요!'
+					}
+				]
+			},
+			password: {
+				identifier: 'pwd',
+				rules: [
+					{
+						type: 'empty',
+						prompt: '비밀번호를 입력해주세요!'
+					}
+				]
+			}
+		}
+	});
+});
+</script> 
+
 </body>
 </html>

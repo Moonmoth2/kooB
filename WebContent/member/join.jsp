@@ -14,46 +14,32 @@
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-
-<style type="text/css">
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
+	font-family: 'Noto Sans kr';
 	margin-top : 50px;
 }
 .ui.container {
 	margin-bottom : 50px;
 }
-/*
-input {
-	height : 50px;
-}
-*/
+
 input[type=button] {
 	vertical-align: middle;
 }
-/*
-div .field > .ui.dropdown {
-	margin-top : 25px;
-	padding-top : 17px;
-	height : 50px;
-	align-items : center;
-}
-*/
 #check {
 	margin-top : 30px;
 	padding-top : 12.5px;
 	align-items : center;
 }
-
 .ui .grid {
 	margin-bottom : 1px;
 }
-
 div .field > .ui.selection.dropdown {
 	margin-top : 25px;
 	padding-top : 12.5px;
 	align-items : center;
 }
-
 div .field > .ui.search.dropdown {
 	margin-top : 3px;
 	padding-top : 3px;
@@ -70,7 +56,7 @@ div .field > .ui.search.dropdown {
 		<form class="ui large form" action="join.do" method="post" name="frm">
 			<div class="ui raised stacked segment">
 			
-				<!-- 아이디(중복체크 구현 필요) -->
+				<!-- 아이디 -->
 				<div class="ui grid">
 					<div class="thirteen wide column">
 						<div class="required field">
@@ -253,38 +239,9 @@ div .field > .ui.search.dropdown {
 	      				</div>
 					</div>
 				</div>
-				
-				<!-- 선호도서 카테고리 2안
-				<a class="ui black ribbon label">선호도서 카테고리</a>
-				<div class="field">
-					<select class="ui middle aligned fluid search dropdown" multiple="">
-  						<option value="">카테고리</option>
-  						<option value="101">소설</option>
-  						<option value="102">시/에세이</option>
-  						<option value="103">예술/대중문화</option>
-  						<option value="104">사회과학</option>
-  						<option value="105">역사와 문화</option>
-  						<option value="107">잡지</option>
-  						<option value="108">만화</option>
-  						<option value="109">어린이</option>
-  						<option value="111">가정과 생활</option>
-  						<option value="112">청소년</option>
-  						<option value="116">자연과 과학</option>
-  						<option value="117">경제경영</option>
-  						<option value="118">자기계발</option>
-  						<option value="119">인문</option>
-  						<option value="120">종교/역학</option>
-  						<option value="122">컴퓨터/인터넷</option>
-  						<option value="124">취미/레저</option>
-  						<option value="126">건강/뷰티</option>
-  						<option value="128">여행</option>
-  					</select>
-				</div>
-				-->
-				
+								
 				<!-- 제출/취소 버튼 -->
 				<button class="ui large primary submit button" type="submit">회원가입</button>
-				<!-- <div class="ui large primary submit button">회원가입</div>  -->
 				<div class="ui large clear button">초기화</div>
 				<div class="ui right floated large button" onclick="location.href='login.do'">뒤로가기</div>
 			</div>
@@ -293,6 +250,8 @@ div .field > .ui.search.dropdown {
 		</form>
 	</div>
 </div>
+
+<!-- ui 작동을 위한 script 및 form 데이터 검증을 위한 script -->
 <script>
 	$('.ui.dropdown').dropdown();
 	$('.ui.checkbox').checkbox();

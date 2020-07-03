@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 <style>
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
 	font-family: 'Noto Sans kr';
@@ -26,7 +25,7 @@ body {
 .ui.container {
 	padding : 0em 6em;
 }
-.ui.button {
+.ui.blue.button {
 	border-radius : 2em;
 }
 .ui.selection.dropdown {
@@ -40,7 +39,7 @@ body {
 	font-size : 1.8em;
 }
 .ui.segment p {
-	font-size : 1.2em;
+	font-size : 1.1em;
 	line-height : 1.8em;
 }
 .description {

@@ -19,9 +19,6 @@ public class ResetPwdServlet extends HttpServlet {
     	String userid = request.getParameter("userid");
     	String pwd = request.getParameter("pwd");
     	
-    	System.out.println(userid);
-    	System.out.println(pwd);
-    	
 		UseruserDAO uDao = UseruserDAO.getInstance();
 		
 		uDao.resetPwd(userid, pwd);

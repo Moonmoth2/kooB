@@ -14,11 +14,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 
 <style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+	font-family: 'Noto Sans kr';
+}
 .segment {
 	height : 400px;
-}
-.button {
-	padding : 0;
 }
 </style>
 </head>
@@ -62,14 +63,14 @@
 					</div>
 					
 					<div class="ui center aligned grid">
-						<div class="seven wide column"></div>
-						<div class="one wide column">
-							<button class="ui positive submit button" type="submit">제출</button>
+						<div class="six wide column"></div>
+						<div class="two wide column">
+							<button class="ui fluid positive submit button" type="submit">제출</button>
 						</div>
-						<div class="one wide column">
-							<button class="ui button" onclick="location.href='index.jsp'">홈으로</button>
+						<div class="two wide column">
+							<button class="ui fluid button" onclick="location.href='index.jsp'">홈으로</button>
 						</div>
-						<div class="seven wide column"></div>
+						<div class="six wide column"></div>
 					</div>			
 				</form>
 			</div>

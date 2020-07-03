@@ -14,7 +14,9 @@
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 <style>
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
+	font-family: 'Noto Sans kr';
 	margin-top : 25px;
 }
 .ui.container {
@@ -30,7 +32,7 @@ body {
 		<div class="ui stacked segment">
 			<div class="ui action input">
 				<input type="text" name="userid" value="${userid}" placeholder="아이디">
-				<div class="ui right floated submit button">중복 체크</div>
+				<button type="submit" class="ui right floated submit button">중복 체크</button>
 			</div>
 			
 			<c:if test="${result == 1}">

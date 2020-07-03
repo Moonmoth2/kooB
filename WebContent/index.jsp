@@ -14,9 +14,15 @@
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
 <style>
+/*
 @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 body {
 	font-family: Nanum Gothic;
+}
+*/
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+	font-family: 'Noto Sans kr';
 }
 .fixed.menu {
 	background: #FFFFFF;
@@ -159,15 +165,15 @@ img {
 					100만 독자에게 사이다 같은 통찰과 단단한 위로를 전해준 김수현 작가의 신작.<br>
 					당당하게 “나로 살기로 했다”고 외치던 저자는 4년 만에 한층 성숙해진 모습으로 돌아와<br>
 					“나를 지키는 관계 맺기”를 이야기한다.<br>
-					어느 날 완벽하다고 믿어 의심치 않았던 관계를 상대는 전혀 다르게 생각하고 있었다는 사실을 깨닫고<br>
-					관계에 대한 고민을 시작했고 오랜 시간 고민한 나름의 결과를 이 책에 담았다.
+					어느 날 완벽하다고 믿어 의심치 않았던 관계를 상대는 전혀 다르게 생각하고 있었다는 사실을<br>
+					깨닫고 관계에 대한 고민을 시작했고 오랜 시간 고민한 나름의 결과를 이 책에 담았다.
 					</p>
 					<br>
 					<div class="ui divider"></div>
 					<h3 class="header">공감 × 솔루션 = 김수현 에세이<br>에세이 독자들이 4년간 기다려온 바로 그 책</h3>
 					<p style="font-family: Nanum Gothic; font-size: 16px;">
 					100만 독자가 열광한 김수현 에세이의 가장 큰 매력은 단연 공감과 솔루션의 적절한 조화이다. <br>
-					읽는 이의 마음을 찰떡같이 알아주는 것에서 한발 더 나아가 분명한 메시지로 해결책까지 제안한다.
+					읽는 이의 마음을 찰떡같이 알아주는 것에서 한발 더 나아가 분명한 해결책까지 제안한다.
 					</p>
 				</div>
 				<div class="five wide right floated column">
@@ -239,7 +245,7 @@ img {
 							<br>자신의 삶을 나무의 성장에 빗대어
 							<br>현실적이고 담담하게 털어놓는다.
 							</p>
-							<br><br><br>
+							<br><br>
 							<a class="ui compact green button" href="bookDetail.do?itemid=265216467">바로가기</a>
 						</div>
 						<div class="six wide column">
@@ -247,9 +253,7 @@ img {
 								<img src="http://bimage.interpark.com/goods_image/6/4/6/7/265216467s.jpg">
 							</div>
 						</div>
-						<div class="nine wide column">
-						
-						</div>
+						<div class="nine wide column"></div>
 					</div>
 				</div>
 			</div>
