@@ -36,8 +36,7 @@ body {
 	margin-right : 2em;
 }
 .ui.placeholder.segment {
-	background: linear-gradient(#94b6d2, #9198e5);
-	color : white;
+	background-color: #06213E;
 	margin-top : 3.66em;
 }
 .header.divider {
@@ -65,8 +64,6 @@ img {
 .ui.vertical.stripe p {
 	font-size: 1.33em;
 }
-
-
 .ui.vertical.stripe.quote {
 	padding : 1em;
 }
@@ -138,10 +135,10 @@ img {
 		</div>
 	</div>
 		
-	<!-- gradient 칠해진 빈 공간 -->
+	<!-- 메인_배너 -->
 	<div class="ui main placeholder segment">
-		<div class="ui image container">
-			<img src="images/main1.png">
+		<div class="ui image">
+			<img src="images/main_banner.png">
 		</div>
 	</div>
 		
@@ -229,7 +226,7 @@ img {
 							<br>바치는 21세기의 사랑이다."
 							</p>
 							<br><br>
-							<a class="ui compact purple button" href="bookDetail.do?itemid=333228205">바로가기</a>
+							<a class="ui purple button" href="bookDetail.do?itemid=333228205">바로가기</a>
 						</div>
 					</div>
 				</div>
@@ -246,7 +243,7 @@ img {
 							<br>현실적이고 담담하게 털어놓는다.
 							</p>
 							<br><br>
-							<a class="ui compact green button" href="bookDetail.do?itemid=265216467">바로가기</a>
+							<a class="ui green button" href="bookDetail.do?itemid=265216467">바로가기</a>
 						</div>
 						<div class="six wide column">
 							<div class="ui fluid image">

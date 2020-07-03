@@ -39,7 +39,7 @@ body {
 	font-size : 1.8em;
 }
 .ui.segment p {
-	font-size : 1.1em;
+	font-size : 1.2em;
 	line-height : 1.8em;
 }
 .description {
@@ -123,7 +123,7 @@ body {
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '시/에세이'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #c6ffdd, #fbd786, #f7797d);">
+   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #0f77a6, #714755, #ebd8e1);">
 		<h4 id="passage">
 		${result}
 		</h4>
@@ -165,13 +165,13 @@ body {
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '가정과 생활'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#007991, #78ffd6);">
+   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #00416a, #799f0c, #ffe000);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '청소년'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#43c6ac, #f8ffae);">
+   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#e65c00, #f9d423);">
 		<h4 id="passage">
 		${result}
 		</h4>
@@ -183,7 +183,7 @@ body {
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '경제경영'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#00c3ff, #ffff1c);">
+   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#cc2b5e, #753a88);">
 		<h4 id="passage">
 		${result}
 		</h4>
