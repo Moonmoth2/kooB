@@ -210,9 +210,9 @@ public class UseruserDAO {
 			pstmt.setString(1, pwd);
 			pstmt.setString(2, userid);
 			pstmt.executeUpdate();
-		}catch(Exception e) {
+		} catch(Exception e) {
 			e.printStackTrace();
-		}finally {
+		} finally {
 			DBManager.close(conn, pstmt);
 		}
 	}

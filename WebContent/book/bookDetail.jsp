@@ -19,11 +19,8 @@
 body {
 	font-family: 'Noto Sans kr';
 }
-#container {
-	background: linear-gradient(#94b6d2, #9198e5);
-}
-.ui.container {
-	padding : 0em 6em;
+.ui.placeholder.segment {
+	padding-top : 4em;
 }
 .ui.blue.button {
 	border-radius : 2em;
@@ -45,21 +42,22 @@ body {
 .description {
 	margin-top : 1.5em;
 }
-#main {
-	padding-bottom : 3em;
+#container {
+	background: linear-gradient(#94b6d2, #9198e5);
 }
 .footer.segment {
-	padding: 2em 0em;	
+	padding: 2em 0em;
 }
 .footer.segment p {
 	font-size : 1em;
 	line-height : 1.5em;
 }
-
+#main {
+	padding-left : 6em;
+	padding-right : 6em;
+	padding-bottom : 3em;
+}
 #passage {
-	margin-top: 1.5em;
-	margin-right: 10em;
-	margin-left: 10em;
 	font-family: Nanum Myeongjo;
 	font-size: 18pt;
 	text-align: center;
@@ -117,115 +115,115 @@ body {
 	
 	<!-- 문구 출력 segment -->
 	<c:if test="${bVo.categoryName eq '소설'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #bbd2c5, #536976, #292e49);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #bbd2c5, #536976, #292e49);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '시/에세이'}">
-   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #0f77a6, #714755, #ebd8e1);">
+   	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #0f77a6, #714755, #ebd8e1);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '예술/대중문화'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #7f7fd5, #86a8e7, #91eae4);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #7f7fd5, #86a8e7, #91eae4);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '사회과학'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #cc95c0, #dbd4b4, #7aa1d2);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #cc95c0, #dbd4b4, #7aa1d2);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '역사와 문화'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#00f260, #0575e6);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#00f260, #0575e6);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '잡지'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#22c1c3, #fdbb2d);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#22c1c3, #fdbb2d);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '만화/라이트노벨'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #5433ff, #20bdff, #a5fecb);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #5433ff, #20bdff, #a5fecb);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '어린이'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #12c2e9, #c471ed, #f64f59);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #12c2e9, #c471ed, #f64f59);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '가정과 생활'}">
-   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #00416a, #799f0c, #ffe000);">
+   	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #00416a, #799f0c, #ffe000);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '청소년'}">
-   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#e65c00, #f9d423);">
+   	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#e65c00, #f9d423);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '자연과 과학'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#191654, #43c6ac);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#191654, #43c6ac);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '경제경영'}">
-   	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#cc2b5e, #753a88);">
+   	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#cc2b5e, #753a88);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '자기계발'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#3494e6, #ec6ead);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#3494e6, #ec6ead);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '인문'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#e8cbc0, #636fa4);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#e8cbc0, #636fa4);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '종교/역학'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#67b26f, #4ca2cd);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#67b26f, #4ca2cd);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '컴퓨터/인터넷'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#4ecdc4, #556270);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#4ecdc4, #556270);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '취미/레저'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(#c2e59c, #64b3f4);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(#c2e59c, #64b3f4);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '건강/뷰티'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #feac5e, #c779d0, #4bc0c8);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #feac5e, #c779d0, #4bc0c8);">
 		<h4 id="passage">
 		${result}
 		</h4>
 	</div></c:if>
 	<c:if test="${bVo.categoryName eq '여행'}">
-	<div class="ui placeholder segment" id="container" style="background: linear-gradient(0.25turn, #77a1d3, #79cbca, #e684ae);">
+	<div class="ui center aligned middle aligned placeholder segment" id="container" style="background: linear-gradient(0.25turn, #77a1d3, #79cbca, #e684ae);">
 		<h4 id="passage">
 		${result}
 		</h4>
@@ -348,10 +346,10 @@ body {
 			
 			<!-- 비슷한 도서 -->
 			<h3 class="ui header">비슷한 도서</h3>
-			<div class="ui container" id="list">
+			<div class="ui container">
 				<div class="ui link four stackable cards">
 					<c:forEach var="book" items="${similarBookList}">
-						<div class="ui centered card" onclick="location.href='bookDetail.do?itemid=${book.itemid}'">
+						<div class="ui doubling centered card" onclick="location.href='bookDetail.do?itemid=${book.itemid}'">
 							<div class="ui fluid image">
 								<img src="${book.coverLargeUrl}">
 							</div>
